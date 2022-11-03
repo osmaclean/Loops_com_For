@@ -2,7 +2,7 @@
 
 function renderUpToHundred() {
     let contagem = [];
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i <= 100; i++) {
         contagem.push(i)
     }
     return contagem;
@@ -22,5 +22,13 @@ renderUpToHundred1();
 
 // Segunda Tarefa 
 
+function tenInTenToAHundred() {
+    let numeros = [];
+    for (let i = 0; i <= 100; i += 10) {
+        numeros.push(i)
+    }
+    return numeros;
+}
+console.log(tenInTenToAHundred());
 
-
+// Terceira Tarefa
