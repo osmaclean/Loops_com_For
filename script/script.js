@@ -83,6 +83,14 @@ console.log(inDescendingDirection());
 
 // Sétima Tarefa
 
+function inDescendingDirectionTenOutOfTen(){
+    let cemAZero = [];
+    for (let i = 100; i >= 0; i-= 10){
+cemAZero.push(i);
+    } 
+    return cemAZero;
+}
+console.log(inDescendingDirectionTenOutOfTen());
 
 
 
