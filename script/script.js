@@ -32,3 +32,14 @@ function tenInTenToAHundred() {
 console.log(tenInTenToAHundred());
 
 // Terceira Tarefa
+
+function oddUpToAHundred() {
+    let numbers = [];
+    for (let i = 0; i <= 100; i++) {
+        if (i % 2 === 1) {
+            numbers.push(i)
+        }
+    }
+    return numbers;
+}
+console.log(oddUpToAHundred());
