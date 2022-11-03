@@ -103,11 +103,20 @@ function divisibleByTwoUpToTen() {
         }
     }
     return divididos;
-    }
+}
 console.log(divisibleByTwoUpToTen());
 
+// Nona Tarefa
 
+function toSquare() {
 
+    let = quadrado = [];
+    for (let i = 0; i >= 100; i++) {
+        quadrado.push();
+    }
+    return quadrado;
+}
+console.log(toSquare());
 
 
 
