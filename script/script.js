@@ -69,7 +69,19 @@ function fromNegativeToPositive() {
 }
 console.log(fromNegativeToPositive());
 
+// Sexta Tarefa
 
+function inDescendingDirection() {
+    let positivo = [];
+    for (let i = 10; i >= 0; i--) {
+        positivo.push(i);
+        
+    }
+    return positivo;
+}
+console.log(inDescendingDirection());
+
+// Sétima Tarefa
 
 
 
