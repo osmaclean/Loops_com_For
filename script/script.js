@@ -46,21 +46,28 @@ console.log(oddUpToAHundred());
 
 // Quarta Tarefa
 
-function evenUpToAHundred(){
+function evenUpToAHundred() {
     let nu = [];
-    for (let i = 0; i <= 100; i++){
-if (i % 2 === 0){
-    nu.push(i);
-}
+    for (let i = 0; i <= 100; i++) {
+        if (i % 2 === 0) {
+            nu.push(i);
+        }
     }
     return nu;
 }
 console.log(evenUpToAHundred());
 
+// Quinta Tarefa
 
-
-
-
+function fromNegativeToPositive() {
+    let negativos = [];
+    for (let i = 10; i >= -10; i--) {
+        negativos.push(i);
+        
+    }
+    return negativos;
+}
+console.log(fromNegativeToPositive());
 
 
 
