@@ -63,7 +63,7 @@ function fromNegativeToPositive() {
     let negativos = [];
     for (let i = 10; i >= -10; i--) {
         negativos.push(i);
-        
+
     }
     return negativos;
 }
@@ -75,7 +75,7 @@ function inDescendingDirection() {
     let positivo = [];
     for (let i = 10; i >= 0; i--) {
         positivo.push(i);
-        
+
     }
     return positivo;
 }
@@ -83,14 +83,28 @@ console.log(inDescendingDirection());
 
 // Sétima Tarefa
 
-function inDescendingDirectionTenOutOfTen(){
+function inDescendingDirectionTenOutOfTen() {
     let cemAZero = [];
-    for (let i = 100; i >= 0; i-= 10){
-cemAZero.push(i);
-    } 
+    for (let i = 100; i >= 0; i -= 10) {
+        cemAZero.push(i);
+    }
     return cemAZero;
 }
 console.log(inDescendingDirectionTenOutOfTen());
+
+
+// Oitava Tarefa
+
+function divisibleByTwoUpToTen() {
+    let divididos = [];
+    for (let i = 10; i >= 0; i--) {
+        if (i % 2 === 0) {
+            divididos.push(i);
+        }
+    }
+    return divididos;
+    }
+console.log(divisibleByTwoUpToTen());
 
 
 
