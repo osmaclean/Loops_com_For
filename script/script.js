@@ -120,6 +120,15 @@ console.log(toSquare());
 
 // Décima Tarefa
 
+function toExponent() {
+    let expoente = [];
+    for (let i = 0; i <= 10; i++) {
+        expoente.push(Math.pow(i ** i,1));
+    }
+    return expoente
+}
+console.log(toExponent());
+
 
 
 
