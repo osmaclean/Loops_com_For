@@ -109,19 +109,16 @@ console.log(divisibleByTwoUpToTen());
 // Nona Tarefa
 
 function toSquare() {
-
     let = quadrado = [];
-    for (let i = 0; i >= 100; i++) {
-        quadrado.push();
+    for (let i = 0; i <= 100; i++) {
+        quadrado.push(Math.pow(i, 2));
     }
     return quadrado;
 }
 console.log(toSquare());
 
 
-
-
-
+// Décima Tarefa
 
 
 
